@@ -16,7 +16,7 @@
 # Back-End
 
 - **Back-End - Hosted version Link:** https://accessapp-be.herokuapp.com/api/
-- **Back-End - Git-Hub Repo Link:** https://github.com/leekli/AccessApp-BE
+- **Back-End - Git-Hub Repo Link:** https://github.com/ArachnaDude/inclusive-manc-be
 
 # Description
 
@@ -39,7 +39,7 @@ There is a back-end API version of this app, which it connects to and interacts 
 - In your teminal CLI:
 
 ```
-$ git clone https://github.com/MKD01/accessapp-fe.git
+$ git clone https://github.com/ArachnaDude/inclusive-manc-fe.git
 $ cd accessapp-fe
 ```
 
