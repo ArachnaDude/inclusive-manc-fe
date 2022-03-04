@@ -22,7 +22,7 @@
 
 This is a front-end React application which connects to the backend API & database (link above).
 
-'Inclusive Manchester' is an app built for those who require additional accessibility needs, such as understanding what wheelchair access looks like in venues around Manchester City Center. It allows a community of users to build ratings, and comments about specific venues regarding how accessible the venue is. It also allows an upvoting mechanism for users to 'vote up' on comments made by other users to confirm if those comments are an accurate reflection of the venues accessibility.
+'Inclusive Manchester' is an app built for users who require additional accessibility needs, such as understanding what wheelchair access looks like in venues around Manchester City Center. It allows a community of users to build ratings, and comments about specific venues regarding how accessible the venue is, how equal they were made to feel there, and the attitudes of the staff and clientele at the location. It also allows an upvoting mechanism for users to 'vote up' on comments made by other users to confirm if those comments are an accurate reflection of the venue.
 
 Built using React.js, and styled with the React-Bootstrap UI kit. It uses the React-leaflet framework to display and interact with mapping technology.
 
