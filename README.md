@@ -15,7 +15,7 @@
 
 # Back-End
 
-- **Back-End - Hosted version Link:** https://accessapp-be.herokuapp.com/api/
+- **Back-End - Hosted version Link:** https://inclusive-manc-be.onrender.com/api/
 - **Back-End - Git-Hub Repo Link:** https://github.com/ArachnaDude/inclusive-manc-be
 
 # Description
@@ -26,7 +26,9 @@ This is a front-end React application which connects to the backend API & databa
 
 Built using React.js, and styled with the React-Bootstrap UI kit. It uses the React-leaflet framework to display and interact with mapping technology.
 
-There is a back-end API version of this app, which it connects to and interacts with the database, available at: https://accessapp-be.herokuapp.com/api/
+There is a back-end API version of this app, which it connects to and interacts with the database, available at: https://inclusive-manc-be.onrender.com/api/
+
+**NB: Render, the service that hosts the back-end spins down resources after a certain period of inactivity. On first visit, please allow some time for Render to re-provision resources to the back-end.**
 
 # How to run this project locally
 
