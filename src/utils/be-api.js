@@ -2,7 +2,7 @@ import axios from "axios";
 
 // API query for app Backend
 const BEapi = axios.create({
-  baseURL: "https://inclusive-manc-be.onrender.com/api/",
+  baseURL: "https://inclusive-manc-be.onrender.com/api",
 });
 
 // GET Requests
