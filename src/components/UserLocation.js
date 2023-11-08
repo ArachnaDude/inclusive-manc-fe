@@ -17,7 +17,7 @@ const UserLocation = ({ pos }) => {
   }, [onZoom, map]);
 
   const userLocationIcon = new L.Icon({
-    iconURL: userIconImg,
+    iconUrl: userIconImg,
     iconRetinaUrl: userIconImg,
     iconSize: [30, 43],
   });
