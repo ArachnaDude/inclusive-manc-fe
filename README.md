@@ -10,7 +10,7 @@
 
 # Front-End
 
-- **Front-End - Hosted version Link:** https://inclusive-manchester.netlify.app/
+- **Front-End - Hosted version Link:** https://inclusive-manc-fe.netlify.app/
 - **Front-End - Git-Hub Repo Link:** https://github.com/ArachnaDude/inclusive-manc-fe
 
 # Back-End
