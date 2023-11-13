@@ -63,4 +63,4 @@ $ npm start
 
 ## Logging in:
 
-- To use the app, login in with the username `joe`.
+- To use the app, login with the username `joe`.
