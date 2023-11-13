@@ -28,7 +28,7 @@ Built using React.js, and styled with the React-Bootstrap UI kit. It uses the Re
 
 There is a back-end API version of this app, which it connects to and interacts with the database, available at: https://inclusive-manc-be.onrender.com/api/
 
-**NB: Render, the service that hosts the back-end spins down resources after periods of inactivity. On first visit, please allow some time for Render to re-provision resources to the back-end.**
+**NB: Render, the service that hosts the back-end, spins down resources after periods of inactivity. On first visit, you may encounter a "username not found" error on login. If this is the case, please allow some time for Render to re-provision resources to the back-end, and try again.**
 
 # How to run this project locally
 
