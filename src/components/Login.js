@@ -67,8 +67,11 @@ const Login = () => {
           ></img>
         </center>
         <Alert variant="info">
-          <b>Demo: </b>For demo purposes please log in as <strong>joe</strong>{" "}
-          with password <strong>admin</strong>.
+          <b>Demo: </b>For demo purposes please log in as <strong>joe</strong>.
+          <br />
+          <b>NB:</b> If you encounter the error "username does not exist", the
+          backend host may have deallocated resources due to inactivity. Wait a
+          short time and retry.
         </Alert>
         <Card className="login-card">
           <ModalHeader className="login-header">
@@ -93,16 +96,7 @@ const Login = () => {
                     required
                   />
                 </Form.Label>
-                <Form.Label className="password-box" htmlFor="Login__textbox">
-                  Password:
-                  <FormControl
-                    type="password"
-                    aria-describedby="basic-addon2"
-                    name="Login__textbox"
-                    placeholder="Enter Password"
-                    required
-                  />
-                </Form.Label>
+
                 <br></br>
               </InputGroup>
               <Button variant="secondary" type="submit">
