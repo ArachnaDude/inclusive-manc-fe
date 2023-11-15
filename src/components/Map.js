@@ -6,7 +6,8 @@ import geoJsonData from "../data/manchesterSmallData.json";
 import { UserContext } from "../contexts/User.js";
 import NotLoggedInError from "./NotLoggedInError";
 import Search from "./Search";
-import PointsCluster from "./PointsCluster";
+// switched PointsCluster to PointsCluster2
+import PointsCluster from "./PointsCluster2";
 import { CoordinatesRefactoring } from "../utils/DataRefactoring";
 import UserLocation from "./UserLocation";
 import UserLocationButtons from "./UserLocationButtons";
@@ -40,7 +41,7 @@ function MainMap() {
       <>
         <MapContainer
           className="leaflet-container"
-          center={[53.483959, -2.244644]}
+          center={userPos}
           zoom={19}
           maxZoom={20}
         >
