@@ -64,3 +64,9 @@ $ npm start
 ## Logging in:
 
 - To use the app, login with the username `joe`.
+
+## Current issues to fix:
+
+- Search bar functionality
+- Key prop bug
+- Votes are not persistent
