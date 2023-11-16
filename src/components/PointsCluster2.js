@@ -1,6 +1,6 @@
 //Handle Imports
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import CustomModal from "./CustomModal2";
@@ -14,7 +14,7 @@ const PointsCluster = ({ points, searchResult }) => {
   // modalId needs to be unique to stop every modal rendering at once
   const [modalId, setModalId] = useState(null);
 
-  console.log("Modal Id", modalId);
+  // console.log("Modal Id", modalId);
 
   const handleClose = () => {
     setModalId(null);
@@ -57,27 +57,29 @@ const PointsCluster = ({ points, searchResult }) => {
               },
             }}
           >
-            <Popup
-              onOpen={() => {
-                console.log("opened popup");
-              }}
-              onClose={() => {
-                console.log("closed popup");
-              }}
-            >
+            <Popup>
               <h4>{point.properties.placeName || "No Name Found"}</h4>
-              <p>{point.properties.placeId}</p>
+
               <Button
+                variant="secondary"
                 onClick={() => {
                   setModalId(point.properties.placeId);
                 }}
               >
-                Click the button
+                Click for more info
               </Button>
 
-              {modalId === point.properties.placeId && (
-                <CustomModal show={modalId !== null} onHide={handleClose} />
-              )}
+              {
+                // giving modal a unique ID allows one modal to
+                // render at a time
+                modalId === point.properties.placeId && (
+                  <CustomModal
+                    show={modalId !== null}
+                    onHide={handleClose}
+                    id={point.properties.placeId}
+                  />
+                )
+              }
             </Popup>
           </Marker>
         );
